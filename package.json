@@ -1,0 +1,25 @@
+{
+  "name": "torquehub",
+  "version": "1.0.0",
+  "description": "TorqueHub - Vehicle Service Center Management System connected with MySQL Workbench",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "vehicle-management",
+    "service-center",
+    "mysql",
+    "mysql-workbench",
+    "torquehub"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}
